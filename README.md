@@ -76,3 +76,10 @@ python validation.py ./test/all_types_missing.csv ./test/all_types.json
 - checking CSV structure deeper - expecting or not expecting headers
 - checking field values match dictionary types
 - field and column names are matched in case insensitive mode. This could be made stricter
+
+## Acknowledgements
+
+Thanks to the following people who provided material for the test data:
+
+- UTF-8 stress test example via https://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-test.txt (CC-BY)
+- the Periodic data of elements are adapted from https://gist.github.com/GoodmanSciences/c2dd862cd38f21b0ad36b8f96b4bf1ee
