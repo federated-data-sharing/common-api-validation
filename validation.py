@@ -90,7 +90,7 @@ def standardise(field_name):
     else:
         return field_name.lower().strip()
 
-def check_metadata(path_to_csv_file, path_to_metadata_json):
+def check_metadata(path_to_csv_file, path_to_metadata_json, dictionary_to_test=None):
     """
     Assumes CSV and JSON files are valid and readable
     """
@@ -104,14 +104,25 @@ def check_metadata(path_to_csv_file, path_to_metadata_json):
             logging.error(f"Unexpected error with Metadata JSON file: {metadata_json_file}")
             exit(1)
 
-        # TODO - checking one table for now
-        dictionary = md[0]
-
+        # If no table is provided try to infer the dictionary to use:
+        dictionaries = { standardise(d['code']):d for d in md}
+        if dictionary_to_test is not None:
+            if standardise(dictionary_to_test) in dictionaries:
+                dictionary = dictionaries[dictionary_to_test]
+            else:
+                # Error 
+                logging.error(f"Dictionary not found: {dictionary_to_test}")
+                # TODO - can't exit here to be library friendly?
+                return
+        else:
+            # default to the first
+            dictionary = md[0]
+        
         expected_table = dictionary['code']
 
         p = pathlib.Path(path_to_csv_file)
         found_table = p.stem
-        logging.info(f"Expected tablename '{expected_table}' Found '{found_table}'")
+        logging.info(f"Expected table name '{expected_table}' Found '{found_table}'")
 
         # Check the columns and fields against what's expected
         # Using Python set operations https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset
@@ -144,7 +155,7 @@ def check_metadata(path_to_csv_file, path_to_metadata_json):
 if __name__ == '__main__':
     # if no parameters, output usage
     if len(sys.argv) < 2:
-        print(f"Usage: {sys.argv[0]} <csv_file> [<metadata_json_file>] ")
+        print(f"Usage: {sys.argv[0]} <csv_file> [<metadata_json_file>] [<dictionary_to_test>]")
         exit(1)
 
     # Step 1: Check input files exist and can be read. Exit if not
@@ -160,6 +171,10 @@ if __name__ == '__main__':
         if not check_file_is_readable(metadata_json_file, 'Metadata JSON file'):
             exit(1)
 
+    dictionary_to_test = None
+    if len(sys.argv) > 3:
+        dictionary_to_test = sys.argv[3]
+
     # Step 2: Check encoding is UTF-8 or ASCII
     encoding_pass = check_encoding(csv_file)
 
@@ -172,4 +187,8 @@ if __name__ == '__main__':
 
         # Step 5: (Optional) Check alignment to metadata file
         if metadata_json_file is not None:
-            check_metadata(csv_file, metadata_json_file)
+            if dictionary_to_test is not None:
+                logging.info(f"Checking metadata - for specific dictionary_to_test {dictionary_to_test}")
+                check_metadata(csv_file, metadata_json_file, dictionary_to_test)
+            else:
+                check_metadata(csv_file, metadata_json_file)
