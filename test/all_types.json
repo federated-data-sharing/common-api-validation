@@ -1,0 +1,92 @@
+[
+    {
+        "id": 760,
+        "name": "all_types",
+        "code": "all_types",
+        "description": "A table with examples of all types.",
+        "created_at": "2021-01-30T10:14:02.399Z",
+        "updated_at": "2021-01-30T10:35:52.011Z",
+        "fields": [
+            {
+                "name": "id",
+                "label": "Record identifier",
+                "type": "integer",
+                "description": "Identifies each row",
+                "constraints": null
+            },
+            {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "description": "The name of the thing",
+                "constraints": null
+            },
+            {
+                "name": "include",
+                "label": "Include",
+                "type": "boolean",
+                "description": "A flag whether to include or exclude in the study",
+                "constraints": null
+            },
+            {
+                "name": "measure",
+                "label": "Measure",
+                "type": "decimal",
+                "description": "The measure of the thing",
+                "constraints": null
+            },
+            {
+                "name": "recorded_at",
+                "label": "Recorded At",
+                "type": "date",
+                "description": "The date when the measure of the thing was recorded",
+                "constraints": null
+            },
+            {
+                "name": "time_simple",
+                "label": "Time - simple",
+                "type": "datetime",
+                "description": "The time when the measure of the thing was recorded (without timezone info)",
+                "constraints": null
+            },
+            {
+                "name": "time_full",
+                "label": "Time - full",
+                "type": "time",
+                "description": "The time when the measure of the thing was recorded (including timezone info)",
+                "constraints": null
+            },
+            {
+                "name": "classification",
+                "label": "Classification",
+                "type": "text",
+                "description": "The classification of the thing",
+                "constraints": "Classification"
+            }
+        ],
+        "lookups": {
+            "Classification": [
+                {
+                    "name": "Alpha",
+                    "description": "Alpha class"
+                },
+                {
+                    "name": "Beta",
+                    "description": "Beta class"
+                },
+                {
+                    "name": "Gamma",
+                    "description": "Gamma class"
+                },
+                {
+                    "name": "Missing",
+                    "description": "No class"
+                },
+                {
+                    "name": "Delta",
+                    "description": "Delta class"
+                }
+            ]
+        }
+    }
+]

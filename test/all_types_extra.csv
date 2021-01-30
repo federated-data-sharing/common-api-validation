@@ -1,0 +1,119 @@
+id,name,include,measure,recorded_at,time_simple,time_full,classification,phase,type,discoverer,year
+1,Hydrogen,T,1.007,1/1/1766,10:00,10:00,Gamma,gas,Nonmetal,Cavendish,1766
+2,Helium,F,4.002,1/1/1868,11:00,11:00,Gamma,gas,Noble Gas,Janssen,1868
+3,Lithium,T,6.941,1/1/1817,12:00,12:00,Alpha,solid,Alkali Metal,Arfvedson,1817
+4,Beryllium,T,9.012,1/1/1798,13:00,13:00,Alpha,solid,Alkaline Earth Metal,Vaulquelin,1798
+5,Boron,F,10.811,1/1/1808,14:00,14:00,Alpha,solid,Metalloid,Gay-Lussac,1808
+6,Carbon,F,12.011,,15:00,15:00,Alpha,solid,Nonmetal,Prehistoric,
+7,Nitrogen,T,14.007,1/1/1772,16:00,16:00,Gamma,gas,Nonmetal,Rutherford,1772
+8,Oxygen,F,15.999,1/1/1774,17:00,17:00,Gamma,gas,Nonmetal,Priestley/Scheele,1774
+9,Fluorine,T,18.998,1/1/1886,18:00,18:00,Gamma,gas,Halogen,Moissan,1886
+10,Neon,T,20.18,1/1/1898,19:00,19:00,Gamma,gas,Noble Gas,Ramsay and Travers,1898
+11,Sodium,T,22.99,1/1/1807,20:00,20:00,Alpha,solid,Alkali Metal,Davy,1807
+12,Magnesium,F,24.305,1/1/1755,21:00,21:00,Alpha,solid,Alkaline Earth Metal,Black,1755
+13,Aluminum,T,26.982,1/1/1827,22:00,22:00,Alpha,solid,Metal,Wshler,1827
+14,Silicon,T,28.086,1/1/1824,23:00,23:00,Alpha,solid,Metalloid,Berzelius,1824
+15,Phosphorus,T,30.974,1/1/1669,00:00,00:00,Alpha,solid,Nonmetal,BranBrand,1669
+16,Sulfur,T,32.065,,01:00,01:00,Alpha,solid,Nonmetal,Prehistoric,
+17,Chlorine,T,35.453,1/1/1774,02:00,02:00,Gamma,gas,Halogen,Scheele,1774
+18,Argon,T,39.948,1/1/1894,03:00,03:00,Gamma,gas,Noble Gas,Rayleigh and Ramsay,1894
+19,Potassium,T,39.098,1/1/1807,04:00,04:00,Alpha,solid,Alkali Metal,Davy,1807
+20,Calcium,T,40.078,1/1/1808,05:00,05:00,Alpha,solid,Alkaline Earth Metal,Davy,1808
+21,Scandium,T,44.956,1/1/1878,06:00,06:00,Alpha,solid,Transition Metal,Nilson,1878
+22,Titanium,T,47.867,1/1/1791,07:00,07:00,Alpha,solid,Transition Metal,Gregor,1791
+23,Vanadium,T,50.942,1/1/1801,08:00,08:00,Alpha,solid,Transition Metal,   del Rio,1801
+24,Chromium,T,51.996,1/1/1797,09:00,09:00,Alpha,solid,Transition Metal,Vauquelin,1797
+25,Manganese,T,54.938,1/1/1774,10:00,10:00,Alpha,solid,Transition Metal,"Gahn, Scheele",1774
+26,Iron,T,55.845,,11:00,11:00,Alpha,solid,Transition Metal,Prehistoric,
+27,Cobalt,T,58.933,1/1/1735,12:00,12:00,Alpha,solid,Transition Metal,Brandt,1735
+28,Nickel,T,58.693,1/1/1751,13:00,13:00,Alpha,solid,Transition Metal,Cronstedt,1751
+29,Copper,F,63.546,,14:00,14:00,Alpha,solid,Transition Metal,Prehistoric,
+30,Zinc,F,65.38,,15:00,15:00,Alpha,solid,Transition Metal,Prehistoric,
+31,Gallium,F,69.723,1/1/1875,16:00,16:00,Alpha,solid,Metal,de Boisbaudran,1875
+32,Germanium,F,72.64,1/1/1886,17:00,17:00,Alpha,solid,Metalloid,Winkler,1886
+33,Arsenic,F,74.922,1/1/1250,18:00,18:00,Alpha,solid,Metalloid,Albertus Magnus,1250
+34,Selenium,F,78.96,1/1/1817,19:00,19:00,Alpha,solid,Nonmetal,Berzelius,1817
+35,Bromine,T,79.904,1/1/1826,20:00,20:00,Beta,liq,Halogen,Balard,1826
+36,Krypton,F,83.798,1/1/1898,21:00,21:00,Gamma,gas,Noble Gas,Ramsay and Travers,1898
+37,Rubidium,T,85.468,1/1/1861,22:00,22:00,Alpha,solid,Alkali Metal,Bunsen and Kirchoff,1861
+38,Strontium,T,87.62,1/1/1808,23:00,23:00,Alpha,solid,Alkaline Earth Metal,Davy,1808
+39,Yttrium,T,88.906,1/1/1794,00:00,00:00,Alpha,solid,Transition Metal,Gadolin,1794
+40,Zirconium,T,91.224,1/1/1789,01:00,01:00,Alpha,solid,Transition Metal,Klaproth,1789
+41,Niobium,T,92.906,1/1/1801,02:00,02:00,Alpha,solid,Transition Metal,Hatchett,1801
+42,Molybdenum,T,95.96,1/1/1778,03:00,03:00,Alpha,solid,Transition Metal,Scheele,1778
+43,Technetium,F,98,01/01/1937,04:00,04:00,Delta,artificial,Transition Metal,Perrier and Segr�,1937
+44,Ruthenium,F,101.07,1/1/1844,05:00,05:00,Alpha,solid,Transition Metal,Klaus,1844
+45,Rhodium,F,102.906,1/1/1803,06:00,06:00,Alpha,solid,Transition Metal,Wollaston,1803
+46,Palladium,,106.42,1/1/1803,07:00,07:00,Alpha,solid,Transition Metal,Wollaston,1803
+47,Silver,,107.868,,08:00,08:00,Alpha,solid,Transition Metal,Prehistoric,
+48,Cadmium,,112.411,1/1/1817,09:00,09:00,Alpha,solid,Transition Metal,Stromeyer,1817
+49,Indium,,114.818,1/1/1863,10:00,10:00,Alpha,solid,Metal,Reich and Richter,1863
+50,Tin,,118.71,,11:00,11:00,Alpha,solid,Metal,Prehistoric,
+51,Antimony,,121.76,,12:00,12:00,Alpha,solid,Metalloid,Early historic times,
+52,Tellurium,,127.6,1/1/1782,13:00,13:00,Alpha,solid,Metalloid,von Reichenstein,1782
+53,Iodine,,126.904,1/1/1811,14:00,14:00,Alpha,solid,Halogen,Courtois,1811
+54,Xenon,,131.293,1/1/1898,15:00,15:00,Gamma,gas,Noble Gas,Ramsay and Travers,1898
+55,Cesium,,132.905,1/1/1860,16:00,16:00,Alpha,solid,Alkali Metal,Bunsen and Kirchoff,1860
+56,Barium,,137.327,1/1/1808,17:00,17:00,Alpha,solid,Alkaline Earth Metal,Davy,1808
+57,Lanthanum,,138.905,1/1/1839,18:00,18:00,Alpha,solid,Lanthanide,Mosander,1839
+58,Cerium,,140.116,1/1/1803,19:00,19:00,Alpha,solid,Lanthanide,Berzelius,1803
+59,Praseodymium,,140.908,1/1/1885,20:00,20:00,Alpha,solid,Lanthanide,von Welsbach,1885
+60,Neodymium,,144.242,1/1/1885,21:00,21:00,Alpha,solid,Lanthanide,von Welsbach,1885
+61,Promethium,,145,01/01/1945,22:00,22:00,Delta,artificial,Lanthanide,Marinsky et al.,1945
+62,Samarium,,150.36,1/1/1879,23:00,23:00,Alpha,solid,Lanthanide,Boisbaudran,1879
+63,Europium,,151.964,01/01/1901,00:00,00:00,Alpha,solid,Lanthanide,Demarcay,1901
+64,Gadolinium,,157.25,1/1/1880,01:00,01:00,Alpha,solid,Lanthanide,de Marignac,1880
+65,Terbium,,158.925,1/1/1843,02:00,02:00,Alpha,solid,Lanthanide,Mosander,1843
+66,Dysprosium,,162.5,1/1/1886,03:00,03:00,Alpha,solid,Lanthanide,de Boisbaudran,1886
+67,Holmium,,164.93,1/1/1878,04:00,04:00,Alpha,solid,Lanthanide,Delafontaine and Soret,1878
+68,Erbium,,167.259,1/1/1843,05:00,05:00,Alpha,solid,Lanthanide,Mosander,1843
+69,Thulium,,168.934,1/1/1879,06:00,06:00,Alpha,solid,Lanthanide,Cleve,1879
+70,Ytterbium,,173.054,1/1/1878,07:00,07:00,Alpha,solid,Lanthanide,Marignac,1878
+71,Lutetium,,174.967,01/01/1907,08:00,08:00,Alpha,solid,Lanthanide,Urbain/ von Welsbach,1907
+72,Hafnium,,178.49,01/01/1923,09:00,09:00,Alpha,solid,Transition Metal,Coster and von Hevesy,1923
+73,Tantalum,,180.948,1/1/1801,10:00,10:00,Alpha,solid,Transition Metal,Ekeberg,1801
+74,Wolfram,,183.84,1/1/1783,11:00,11:00,Alpha,solid,Transition Metal,J. and F. d'Elhuyar,1783
+75,Rhenium,,186.207,01/01/1925,12:00,12:00,Alpha,solid,Transition Metal,"Noddack, Berg, and Tacke",1925
+76,Osmium,,190.23,1/1/1803,13:00,13:00,Alpha,solid,Transition Metal,Tennant,1803
+77,Iridium,,192.217,1/1/1804,14:00,14:00,Alpha,solid,Transition Metal,Tennant,1804
+78,Platinum,,195.084,1/1/1735,15:00,15:00,Alpha,solid,Transition Metal,Ulloa/Wood,1735
+79,Gold,,196.967,,16:00,16:00,Alpha,solid,Transition Metal,Prehistoric,
+80,Mercury,,200.59,,17:00,17:00,Beta,liq,Transition Metal,Prehistoric,
+81,Thallium,,204.383,1/1/1861,18:00,18:00,Alpha,solid,Metal,Crookes,1861
+82,Lead,,207.2,,19:00,19:00,Alpha,solid,Metal,Prehistoric,
+83,Bismuth,,208.98,1/1/1753,20:00,20:00,Alpha,solid,Metal,Geoffroy the Younger,1753
+84,Polonium,,210,1/1/1898,21:00,21:00,Alpha,solid,Metalloid,Curie,1898
+85,Astatine,,210,01/01/1940,22:00,22:00,Alpha,solid,Noble Gas,Corson et al.,1940
+86,Radon,,222,01/01/1900,23:00,23:00,Gamma,gas,Alkali Metal,Dorn,1900
+87,Francium,,223,01/01/1939,00:00,00:00,Alpha,solid,Alkaline Earth Metal,Perey,1939
+88,Radium,,226,1/1/1898,01:00,01:00,Alpha,solid,Actinide,Pierre and Marie Curie,1898
+89,Actinium,,227,1/1/1899,02:00,02:00,Alpha,solid,Actinide,Debierne/Giesel,1899
+90,Thorium,,232.038,1/1/1828,03:00,03:00,Alpha,solid,Actinide,Berzelius,1828
+91,Protactinium,,231.036,01/01/1917,04:00,04:00,Alpha,solid,Actinide,Hahn and Meitner,1917
+92,Uranium,,238.029,1/1/1841,05:00,05:00,Alpha,solid,Actinide,Peligot,1841
+93,Neptunium,,237,01/01/1940,06:00,06:00,Delta,artificial,Actinide,McMillan and Abelson,1940
+94,Plutonium,,244,01/01/1940,07:00,07:00,Delta,artificial,Actinide,Seaborg et al.,1940
+95,Americium,,243,01/01/1944,08:00,08:00,Delta,artificial,Actinide,Seaborg et al.,1944
+96,Curium,,247,01/01/1944,09:00,09:00,Delta,artificial,Actinide,Seaborg et al.,1944
+97,Berkelium,,247,01/01/1949,10:00,10:00,Delta,artificial,Actinide,Seaborg et al.,1949
+98,Californium,,251,01/01/1950,11:00,11:00,Delta,artificial,Actinide,Seaborg et al.,1950
+99,Einsteinium,,252,01/01/1952,12:00,12:00,Delta,artificial,Actinide,Ghiorso et al.,1952
+100,Fermium,,257,01/01/1953,13:00,13:00,Delta,artificial,Actinide,Ghiorso et al.,1953
+101,Mendelevium,,258,01/01/1955,14:00,14:00,Delta,artificial,Actinide,Ghiorso et al.,1955
+102,Nobelium,,259,01/01/1958,15:00,15:00,Delta,artificial,Actinide,Ghiorso et al.,1958
+103,Lawrencium,,262,01/01/1961,16:00,16:00,Delta,artificial,Actinide,Ghiorso et al.,1961
+104,Rutherfordium,,261,01/01/1969,17:00,17:00,Delta,artificial,Transactinide,Ghiorso et al.,1969
+105,Dubnium,,262,01/01/1970,18:00,18:00,Delta,artificial,Transactinide,Ghiorso et al.,1970
+106,Seaborgium,,266,01/01/1974,19:00,19:00,Delta,artificial,Transactinide,Ghiorso et al.,1974
+107,Bohrium,,264,01/01/1981,20:00,20:00,Delta,artificial,Transactinide,Armbruster and M�nzenberg,1981
+108,Hassium,,267,01/01/1983,21:00,21:00,Delta,artificial,Transactinide,Armbruster and M�nzenberg,1983
+109,Meitnerium,,268,01/01/1982,22:00,22:00,Delta,artificial,Transactinide,"GSI, Darmstadt, West Germany",1982
+110,Darmstadtium ,,271,01/01/1994,23:00,23:00,Delta,artificial,Transactinide,,1994
+111,Roentgenium ,,272,01/01/1994,00:00,00:00,Delta,artificial,Transactinide,,1994
+112,Copernicium ,,285,01/01/1996,01:00,01:00,Delta,artificial,Transactinide,,1996
+113,Nihonium,,284,01/01/2004,02:00,02:00,Delta,artificial,,,2004
+114,Flerovium,,289,01/01/1999,03:00,03:00,Delta,artificial,Transactinide,,1999
+115,Moscovium,,288,01/01/2010,04:00,04:00,Delta,artificial,,,2010
+116,Livermorium,,292,01/01/2000,05:00,05:00,Delta,artificial,Transactinide,,2000
+117,Tennessine,,295,01/01/2010,06:00,06:00,Delta,artificial,,,2010
+118,Oganesson,,294,01/01/2006,07:00,07:00,Delta,artificial,Noble Gas,,2006
