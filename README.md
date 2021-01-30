@@ -55,7 +55,7 @@ A number of examples are provided in the [`test` folder](./test).
 
 Check a file that is not UTF-8:
 ```sh
-python validation.py ./test/lorem.txt
+python validation.py ./test/UTF-8-test.txt
 ```
 Check a file that matches its metadata:
 ```sh 
