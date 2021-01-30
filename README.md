@@ -40,7 +40,7 @@ The package provides a single python script [`validation.py`](./validation.py) t
 2. (optionally) a JSON file with metadata describing the CSV file in one of its dictionary sections.
 3. (optionally) the name of a dictionary in the JSON file to test 
 
-> If no dictionary_to_test parameter is foud, the script will default to either the dictionary that matches the CSV base name or the first dictionary in the JSON file.  
+> If no dictionary_to_test parameter is foud, the script will default to either the dictionary that matches the CSV base name or the first dictionary in the JSON  
 
 To find usage information, run the script with no parameters:
 ```sh
