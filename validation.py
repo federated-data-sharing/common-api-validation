@@ -100,12 +100,15 @@ def check_metadata(path_to_csv_file, path_to_metadata_json, dictionary_to_test=N
     with open(path_to_metadata_json, 'r') as mdf:
         try:
             md = json.load(mdf)
+            if 'dictionaries' not in md:
+                print("Missing 'dictionaries' section in metadata file")
+                exit(1)
         except:
             logging.error(f"Unexpected error with Metadata JSON file: {metadata_json_file}")
             exit(1)
 
         # If no table is provided try to infer the dictionary to use:
-        dictionaries = { standardise(d['code']):d for d in md}
+        dictionaries = { standardise(d['code']):d for d in md['dictionaries']}
         if dictionary_to_test is not None:
             if standardise(dictionary_to_test) in dictionaries:
                 dictionary = dictionaries[dictionary_to_test]
@@ -116,7 +119,7 @@ def check_metadata(path_to_csv_file, path_to_metadata_json, dictionary_to_test=N
                 return
         else:
             # default to the first
-            dictionary = md[0]
+            dictionary = md['dictionaries'][0]
         
         expected_table = dictionary['code']
 
